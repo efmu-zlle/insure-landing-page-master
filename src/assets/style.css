@@ -12,13 +12,16 @@
   --neutral-very-light-gray: hsl(0, 0%, 98%);
 
   /* ### Sizes */
-  --size-mobile-lg: 1.625em;
-  --size-mobile-xl: 1.875em;
+  --size-mobile-lg: 1.625rem; /* 26px */
+  --size-mobile-xl: 1.875rem;
 
   --size-desktop-xs: 0.6875em;
-  --size-desktop-md: 0.875em;
+  --size-desktop-sm: 0.625rem;
+  --size-desktop-md: 0.875rem;
+  --size-desktop-xl: 4.5rem;
+  --size-desktop-2xl: 10.625rem;
 
-  --size-default: 1em;
+  --size-default: 1rem;
 }
 
 html {
@@ -27,14 +30,7 @@ html {
 }
 
 * {
-  margin: 0;
   line-height: calc(1em + 0.5em);
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
 }
 
 svg,
@@ -58,4 +54,5 @@ button {
   border: none;
   background-color: transparent;
   color: var(--primary-dark-violet);
+  cursor: pointer;
 }

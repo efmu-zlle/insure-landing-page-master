@@ -1,18 +1,28 @@
 .btn {
   text-transform: uppercase;
-  font-weight: 400;
-  padding-top: var(--size-default);
-  padding-bottom: var(--size-default);
+  font-weight: 700;
+  font-size: var(--size-desktop-md);
+  padding-top: var(--size-desktop-sm);
+  padding-bottom: var(--size-desktop-sm);
   background-color: var(--neutral-very-light-gray);
+  border: 2px solid var(--primary-dark-violet);
+  padding-right: var(--size-mobile-xl);
+  padding-left: var(--size-mobile-xl);
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--primary-dark-violet);
+  color: var(--neutral-very-light-gray);
 }
 
 .container {
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .section {
@@ -51,6 +61,8 @@
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
+    margin-left: var(--size-desktop-2xl);
+    margin-right: var(--size-desktop-2xl);
   }
 }
 
