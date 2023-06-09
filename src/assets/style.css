@@ -12,10 +12,12 @@
   --neutral-very-light-gray: hsl(0, 0%, 98%);
 
   /* ### Sizes */
-  /* --size-xs: ;
-  --size-sm: ;
-  --size-md: ;
-  --size-lg: ; */
+  --size-mobile-lg: 1.625em;
+  --size-mobile-xl: 1.875em;
+
+  --size-desktop-xs: 0.6875em;
+  --size-desktop-md: 0.875em;
+
   --size-default: 1em;
 }
 
@@ -42,6 +44,18 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
-  font-family: "DM Serif Display", "Karla", serif;
+  font-family: "Karla", "DM Serif Display", serif;
+  background-color: var(--neutral-very-light-gray);
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-dark-violet);
 }

@@ -1,3 +1,11 @@
+.btn {
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-top: var(--size-default);
+  padding-bottom: var(--size-default);
+  background-color: var(--neutral-very-light-gray);
+}
+
 .container {
   width: 100%;
   margin-left: auto;
