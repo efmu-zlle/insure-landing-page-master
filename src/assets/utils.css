@@ -4,7 +4,7 @@
   font-size: var(--size-desktop-md);
   padding-top: var(--size-desktop-sm);
   padding-bottom: var(--size-desktop-sm);
-  background-color: var(--neutral-very-light-gray);
+  background-color: transparent;
   border: 2px solid var(--primary-dark-violet);
   padding-right: var(--size-mobile-xl);
   padding-left: var(--size-mobile-xl);
@@ -17,16 +17,22 @@
   color: var(--neutral-very-light-gray);
 }
 
+.btn.white {
+  border: 2px solid var(--neutral-very-light-gray);
+  color: var(--neutral-very-light-gray);
+}
+
+.btn.white:hover {
+  background-color: var(--neutral-very-light-gray);
+  color: var(--primary-dark-violet);
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5em;
   padding-right: 0.5em;
   /* border: 1px solid red; */
-}
-
-.section {
-  margin-top: 5em;
 }
 
 /* xs */

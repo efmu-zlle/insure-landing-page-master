@@ -13,13 +13,16 @@
 
   /* ### Sizes */
   --size-mobile-lg: 1.625rem; /* 26px */
-  --size-mobile-xl: 1.875rem;
+  --size-mobile-xl: 1.875rem; /* 36px */
 
   --size-desktop-xs: 0.6875em;
-  --size-desktop-sm: 0.625rem;
+  --size-desktop-sm: 0.625rem; /* 10px */
   --size-desktop-md: 0.875rem;
-  --size-desktop-xl: 4.5rem;
-  --size-desktop-2xl: 10.625rem;
+
+  --size-desktop-xl: 4.25rem;
+  --size-desktop-2xl: 9.625rem;
+
+  --size-thirty-six: 2.25rem;
 
   --size-default: 1rem;
 }
