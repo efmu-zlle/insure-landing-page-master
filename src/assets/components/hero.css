@@ -17,6 +17,7 @@
   font-size: var(--size-mobile-xl);
   margin-top: 100px;
 }
+
 /* xs */
 /* @media (min-width: 475px) {
 } */
@@ -40,6 +41,7 @@
   .hero__content {
     text-align: inherit;
   }
+
   .hero__line {
     width: 155px;
     height: 2px;

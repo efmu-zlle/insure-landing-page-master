@@ -28,8 +28,8 @@
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: var(--size-desktop-2xl);
+  margin-right: var(--size-desktop-2xl);
   padding-left: 0.5em;
   padding-right: 0.5em;
   /* border: 1px solid red; */
@@ -67,8 +67,6 @@
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    margin-left: var(--size-desktop-2xl);
-    margin-right: var(--size-desktop-2xl);
   }
 }
 
