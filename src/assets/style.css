@@ -10,6 +10,7 @@
   --neutral-very-dark-violet: hsl(270, 9%, 17%);
   --neutral-dark-grayish-violet: hsl(273, 4%, 51%);
   --neutral-very-light-gray: hsl(0, 0%, 98%);
+  --neutral-very-light-gray2: hsl(0, 0%, 94%);
 
   /* ### Sizes */
   --size-mobile-lg: 1.625rem; /* 26px */
@@ -23,7 +24,7 @@
   --size-desktop-md: 0.875rem;
 
   --size-desktop-xl: 4.25rem;
-  --size-desktop-2xl: 10.625rem;
+  --size-desktop-2xl: 4.425rem;
 
   --size-thirty-six: 2.25rem;
 

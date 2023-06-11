@@ -18,6 +18,10 @@
   margin-top: 100px;
 }
 
+.hero__button {
+  margin-bottom: 66px;
+}
+
 /* xs */
 /* @media (min-width: 475px) {
 } */

@@ -1,0 +1,20 @@
+.footer {
+  background-color: var(--neutral-very-light-gray2);
+}
+
+.footer__header {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__icons {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: end;
+}
+
+.footer__icons > li > a {
+  cursor: pointer;
+}
