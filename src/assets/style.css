@@ -66,3 +66,7 @@ button {
   color: var(--primary-dark-violet);
   cursor: pointer;
 }
+
+.attribution {
+  position: relative;
+}
