@@ -1,4 +1,10 @@
 .header {
+  background-color: var(--neutral-very-light-gray);
+  position: relative;
+  z-index: 999;
+}
+
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;

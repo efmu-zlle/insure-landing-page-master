@@ -3,6 +3,20 @@
   color: var(--neutral-very-light-gray);
   text-align: center;
   margin-bottom: 140px;
+  position: relative;
+  isolation: isolate;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto auto;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+  background-image: url("/public/images/bg-pattern-how-we-work-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .about__heading {
@@ -44,5 +58,9 @@
 @media (min-width: 1024px) {
   .about__heading {
     font-size: var(--size-desktop-xl);
+  }
+
+  .about::before {
+    background-image: url("/public/images/bg-pattern-how-we-work-desktop.svg");
   }
 }

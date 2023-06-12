@@ -1,5 +1,20 @@
 .footer {
   background-color: var(--neutral-very-light-gray2);
+  position: relative;
+  isolation: isolate;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("/public/images/bg-pattern-footer-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
 }
 
 .footer__header {
@@ -66,6 +81,11 @@
 
 /* md */
 @media (min-width: 768px) {
+  .footer::before {
+    background-image: url("/public/images/bg-pattern-footer-desktop.svg");
+    width: 50%;
+  }
+
   .footer__header {
     flex-direction: row;
     justify-content: space-between;
