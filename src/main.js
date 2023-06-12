@@ -6,3 +6,6 @@ import "./assets/components/featured.css";
 import "./assets/components/about.css";
 import "./assets/components/footer.css";
 import "./assets/utils.css";
+import mobileMenu from "./utils/mobileMenu";
+
+mobileMenu();

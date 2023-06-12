@@ -55,6 +55,11 @@
   .container {
     max-width: 768px;
   }
+
+  .section {
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+  }
 }
 
 /* lg */

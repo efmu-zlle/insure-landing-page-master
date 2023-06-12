@@ -12,26 +12,33 @@
     <title>Frontend Mentor | Insure landing page</title>
   </head>
   <body>
+    <!-- header content -->
     <header class="header container">
       <img src="/images/logo.svg" alt="insure" />
+
       <nav>
-        <ul class="header__menu">
-          <li>
-            <a class="header__link" href="#howwework">how we work</a>
-          </li>
-          <li>
-            <a class="header__link" href="#blog">blog</a>
-          </li>
-          <li>
-            <a class="header__link" href="#account">account</a>
-          </li>
-          <li><button class="btn">view plans</button></li>
-        </ul>
-        <button class="header__hamburger">
+        <button
+          id="hamburger-button"
+          aria-controls="menu-navigation"
+          aria-expanded="false"
+          class="header__hamburger"
+        >
           <img src="/images/icon-hamburger.svg" alt="hamburger" />
         </button>
+
+        <ul id="menu-navigation" data-open="false" class="header__menu">
+          <li><a class="header__link" href="#howwework">how we work</a></li>
+          <li><a class="header__link" href="#blog">blog</a></li>
+          <li><a class="header__link" href="#account">account</a></li>
+          <li>
+            <button class="header__link-button btn">view plans</button>
+          </li>
+        </ul>
       </nav>
     </header>
+    <!-- end header content  -->
+
+    <!-- main content  -->
     <main>
       <section class="hero">
         <div class="hero__flex container">
@@ -99,7 +106,6 @@
           </li>
         </ul>
       </section>
-
       <section class="container">
         <div class="about">
           <h6 class="about__heading">Find out more <br />about how we work</h6>
@@ -107,11 +113,14 @@
         </div>
       </section>
     </main>
+    <!-- end main content -->
+
+    <!-- footer content  -->
     <footer class="footer">
       <div class="container">
         <header class="footer__header">
           <div>
-            <img src="/images/logo.svg" alt="logo" />
+            <img src="/images/logo.svg" alt="insure" />
           </div>
           <nav>
             <ul class="footer__icons-container">
@@ -203,6 +212,7 @@
         </ul>
       </div>
     </footer>
+    <!-- end footer content -->
 
     <!-- <div class="attribution">
       Challenge by

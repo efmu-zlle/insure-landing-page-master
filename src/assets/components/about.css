@@ -17,8 +17,8 @@
   margin-bottom: 66px;
 }
 
-/* md */
-@media (min-width: 768px) {
+/* sm */
+@media (min-width: 640px) {
   .about {
     text-align: inherit;
     display: flex;
@@ -29,7 +29,7 @@
   }
 
   .about__heading {
-    font-size: var(--size-desktop-xl);
+    font-size: 2rem;
     padding: 0;
     margin: 0;
     line-height: 1;
@@ -37,5 +37,12 @@
 
   .about__button {
     margin-bottom: 0;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .about__heading {
+    font-size: var(--size-desktop-xl);
   }
 }
