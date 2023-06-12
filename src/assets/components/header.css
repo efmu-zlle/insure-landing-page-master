@@ -59,6 +59,18 @@
     right: 0%;
   }
 
+  .header__menu[data-open="true"]::before {
+    content: "";
+    background-image: url("/public/images/bg-pattern-mobile-nav.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    right: 0;
+  }
+
   .header__menu > li:nth-child(4) {
     width: 100%;
   }
